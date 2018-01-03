@@ -1,0 +1,21 @@
+[
+  { "caption": "SubliMeld: Open Active Files",
+     "command": "subli_meld_files"
+    //  "args": {
+    //    "extra_paths": []
+    // }
+  },
+  { "caption": "Preferences: SubliMeld Key Bindings",
+    "command": "edit_settings",
+    "args": {
+      "base_file": "${packages}/SubliMeld/Default (${platform}).sublime-keymap",
+      "default": "[\n\t$0\n]\n"
+    }
+  },
+  { "caption": "SubliMeld: Open Readme",
+    "command": "open_file",
+    "args": {
+      "file": "${packages}/SubliMeld/README.md"
+    }
+  }
+]
